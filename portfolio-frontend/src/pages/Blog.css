@@ -1,0 +1,25 @@
+.blog-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  min-height: calc(100vh - 200px);
+}
+
+.blog-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.loading,
+.error,
+.no-content {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+}
+
+.error {
+  color: var(--pink-primary);
+}
